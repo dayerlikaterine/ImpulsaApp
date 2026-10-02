@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">118471587574</string>
+    <string name="google_api_key" translatable="false">AIzaSyD6uxtzoK_U5ftLJI8Ou0oqFdEy5bMUufk</string>
+    <string name="google_app_id" translatable="false">1:118471587574:android:f7649bab9c3404f87bded7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD6uxtzoK_U5ftLJI8Ou0oqFdEy5bMUufk</string>
+    <string name="google_storage_bucket" translatable="false">impulsa-82b57.firebasestorage.app</string>
+    <string name="project_id" translatable="false">impulsa-82b57</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Con Jetpack Compose los colores se definen en Theme.kt,
+         por eso aquí solo hace falta un tema base sin ActionBar. -->
+    <style name="Theme.Impulsa" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

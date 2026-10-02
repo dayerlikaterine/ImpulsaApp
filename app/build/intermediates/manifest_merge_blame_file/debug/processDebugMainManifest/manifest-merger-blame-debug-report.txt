@@ -1,0 +1,370 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.impulsa.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\dayer\Downloads\files\ImpulsaApp\ImpulsaApp\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\dayer\Downloads\files\ImpulsaApp\ImpulsaApp\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:26:5-79
+12-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:26:22-76
+13    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+13-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\dayer\.gradle\caches\transforms-4\fcb096e5012c62499190561924220deb\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+13-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\dayer\.gradle\caches\transforms-4\fcb096e5012c62499190561924220deb\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+14
+15    <permission
+15-->[androidx.core:core:1.13.1] C:\Users\dayer\.gradle\caches\transforms-4\86d139a0de0560a1a2e026d7936fd794\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+16        android:name="com.impulsa.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.13.1] C:\Users\dayer\.gradle\caches\transforms-4\86d139a0de0560a1a2e026d7936fd794\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.13.1] C:\Users\dayer\.gradle\caches\transforms-4\86d139a0de0560a1a2e026d7936fd794\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.impulsa.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.13.1] C:\Users\dayer\.gradle\caches\transforms-4\86d139a0de0560a1a2e026d7936fd794\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.13.1] C:\Users\dayer\.gradle\caches\transforms-4\86d139a0de0560a1a2e026d7936fd794\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->C:\Users\dayer\Downloads\files\ImpulsaApp\ImpulsaApp\app\src\main\AndroidManifest.xml:6:5-27:19
+22        android:name="com.impulsa.app.ImpulsaApplication"
+22-->C:\Users\dayer\Downloads\files\ImpulsaApp\ImpulsaApp\app\src\main\AndroidManifest.xml:7:9-43
+23        android:allowBackup="true"
+23-->C:\Users\dayer\Downloads\files\ImpulsaApp\ImpulsaApp\app\src\main\AndroidManifest.xml:8:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.13.1] C:\Users\dayer\.gradle\caches\transforms-4\86d139a0de0560a1a2e026d7936fd794\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->C:\Users\dayer\Downloads\files\ImpulsaApp\ImpulsaApp\app\src\main\AndroidManifest.xml:9:9-65
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:fullBackupContent="@xml/backup_rules"
+28-->C:\Users\dayer\Downloads\files\ImpulsaApp\ImpulsaApp\app\src\main\AndroidManifest.xml:10:9-54
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\dayer\Downloads\files\ImpulsaApp\ImpulsaApp\app\src\main\AndroidManifest.xml:11:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\dayer\Downloads\files\ImpulsaApp\ImpulsaApp\app\src\main\AndroidManifest.xml:12:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\dayer\Downloads\files\ImpulsaApp\ImpulsaApp\app\src\main\AndroidManifest.xml:13:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\dayer\Downloads\files\ImpulsaApp\ImpulsaApp\app\src\main\AndroidManifest.xml:14:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.Impulsa" >
+34-->C:\Users\dayer\Downloads\files\ImpulsaApp\ImpulsaApp\app\src\main\AndroidManifest.xml:15:9-45
+35        <activity
+35-->C:\Users\dayer\Downloads\files\ImpulsaApp\ImpulsaApp\app\src\main\AndroidManifest.xml:17:9-26:20
+36            android:name="com.impulsa.app.MainActivity"
+36-->C:\Users\dayer\Downloads\files\ImpulsaApp\ImpulsaApp\app\src\main\AndroidManifest.xml:18:13-41
+37            android:exported="true"
+37-->C:\Users\dayer\Downloads\files\ImpulsaApp\ImpulsaApp\app\src\main\AndroidManifest.xml:19:13-36
+38            android:theme="@style/Theme.Impulsa"
+38-->C:\Users\dayer\Downloads\files\ImpulsaApp\ImpulsaApp\app\src\main\AndroidManifest.xml:21:13-49
+39            android:windowSoftInputMode="adjustResize" >
+39-->C:\Users\dayer\Downloads\files\ImpulsaApp\ImpulsaApp\app\src\main\AndroidManifest.xml:20:13-55
+40            <intent-filter>
+40-->C:\Users\dayer\Downloads\files\ImpulsaApp\ImpulsaApp\app\src\main\AndroidManifest.xml:22:13-25:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\dayer\Downloads\files\ImpulsaApp\ImpulsaApp\app\src\main\AndroidManifest.xml:23:17-69
+41-->C:\Users\dayer\Downloads\files\ImpulsaApp\ImpulsaApp\app\src\main\AndroidManifest.xml:23:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\dayer\Downloads\files\ImpulsaApp\ImpulsaApp\app\src\main\AndroidManifest.xml:24:17-77
+43-->C:\Users\dayer\Downloads\files\ImpulsaApp\ImpulsaApp\app\src\main\AndroidManifest.xml:24:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <service
+47-->[com.google.firebase:firebase-auth-ktx:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\91368733346b5c4b998325f9ab112a9a\transformed\firebase-auth-ktx-23.0.0\AndroidManifest.xml:8:9-14:19
+48            android:name="com.google.firebase.components.ComponentDiscoveryService"
+48-->[com.google.firebase:firebase-auth-ktx:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\91368733346b5c4b998325f9ab112a9a\transformed\firebase-auth-ktx-23.0.0\AndroidManifest.xml:9:13-84
+49            android:directBootAware="true"
+49-->[com.google.firebase:firebase-common:21.0.0] C:\Users\dayer\.gradle\caches\transforms-4\fa10697f263963146316e2c4ad6fdbc1\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+50            android:exported="false" >
+50-->[com.google.firebase:firebase-auth-ktx:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\91368733346b5c4b998325f9ab112a9a\transformed\firebase-auth-ktx-23.0.0\AndroidManifest.xml:10:13-37
+51            <meta-data
+51-->[com.google.firebase:firebase-auth-ktx:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\91368733346b5c4b998325f9ab112a9a\transformed\firebase-auth-ktx-23.0.0\AndroidManifest.xml:11:13-13:85
+52                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar"
+52-->[com.google.firebase:firebase-auth-ktx:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\91368733346b5c4b998325f9ab112a9a\transformed\firebase-auth-ktx-23.0.0\AndroidManifest.xml:12:17-119
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[com.google.firebase:firebase-auth-ktx:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\91368733346b5c4b998325f9ab112a9a\transformed\firebase-auth-ktx-23.0.0\AndroidManifest.xml:13:17-82
+54            <meta-data
+54-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:69:13-71:85
+55                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+55-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:70:17-109
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:71:17-82
+57            <meta-data
+57-->[com.google.firebase:firebase-firestore-ktx:25.0.0] C:\Users\dayer\.gradle\caches\transforms-4\0f72cb3caf8caa1a03920441d5d55faf\transformed\firebase-firestore-ktx-25.0.0\AndroidManifest.xml:12:13-14:85
+58                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreLegacyRegistrar"
+58-->[com.google.firebase:firebase-firestore-ktx:25.0.0] C:\Users\dayer\.gradle\caches\transforms-4\0f72cb3caf8caa1a03920441d5d55faf\transformed\firebase-firestore-ktx-25.0.0\AndroidManifest.xml:13:17-129
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[com.google.firebase:firebase-firestore-ktx:25.0.0] C:\Users\dayer\.gradle\caches\transforms-4\0f72cb3caf8caa1a03920441d5d55faf\transformed\firebase-firestore-ktx-25.0.0\AndroidManifest.xml:14:17-82
+60            <meta-data
+60-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\dayer\.gradle\caches\transforms-4\2d4797e7f07a3715a54e0c153787e637\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:17:13-19:85
+61                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+61-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\dayer\.gradle\caches\transforms-4\2d4797e7f07a3715a54e0c153787e637\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:18:17-122
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\dayer\.gradle\caches\transforms-4\2d4797e7f07a3715a54e0c153787e637\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:19:17-82
+63            <meta-data
+63-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\dayer\.gradle\caches\transforms-4\2d4797e7f07a3715a54e0c153787e637\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:20:13-22:85
+64                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+64-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\dayer\.gradle\caches\transforms-4\2d4797e7f07a3715a54e0c153787e637\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:21:17-111
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\dayer\.gradle\caches\transforms-4\2d4797e7f07a3715a54e0c153787e637\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:22:17-82
+66            <meta-data
+66-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\dayer\.gradle\caches\transforms-4\3a3942fca233bd6fa9fdc308b3781070\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+67                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+67-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\dayer\.gradle\caches\transforms-4\3a3942fca233bd6fa9fdc308b3781070\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\dayer\.gradle\caches\transforms-4\3a3942fca233bd6fa9fdc308b3781070\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+69            <meta-data
+69-->[com.google.firebase:firebase-common:21.0.0] C:\Users\dayer\.gradle\caches\transforms-4\fa10697f263963146316e2c4ad6fdbc1\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+70                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+70-->[com.google.firebase:firebase-common:21.0.0] C:\Users\dayer\.gradle\caches\transforms-4\fa10697f263963146316e2c4ad6fdbc1\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[com.google.firebase:firebase-common:21.0.0] C:\Users\dayer\.gradle\caches\transforms-4\fa10697f263963146316e2c4ad6fdbc1\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+72        </service>
+73
+74        <activity
+74-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:29:9-46:20
+75            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+75-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:30:13-80
+76            android:excludeFromRecents="true"
+76-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:31:13-46
+77            android:exported="true"
+77-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:32:13-36
+78            android:launchMode="singleTask"
+78-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:33:13-44
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+79-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:34:13-72
+80            <intent-filter>
+80-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:35:13-45:29
+81                <action android:name="android.intent.action.VIEW" />
+81-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:36:17-69
+81-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:36:25-66
+82
+83                <category android:name="android.intent.category.DEFAULT" />
+83-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:38:17-76
+83-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:38:27-73
+84                <category android:name="android.intent.category.BROWSABLE" />
+84-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:39:17-78
+84-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:39:27-75
+85
+86                <data
+86-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:41:17-44:51
+87                    android:host="firebase.auth"
+87-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:42:21-49
+88                    android:path="/"
+88-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:43:21-37
+89                    android:scheme="genericidp" />
+89-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:44:21-48
+90            </intent-filter>
+91        </activity>
+92        <activity
+92-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:47:9-64:20
+93            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+93-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:48:13-79
+94            android:excludeFromRecents="true"
+94-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:49:13-46
+95            android:exported="true"
+95-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:50:13-36
+96            android:launchMode="singleTask"
+96-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:51:13-44
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+97-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:52:13-72
+98            <intent-filter>
+98-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:53:13-63:29
+99                <action android:name="android.intent.action.VIEW" />
+99-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:36:17-69
+99-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:36:25-66
+100
+101                <category android:name="android.intent.category.DEFAULT" />
+101-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:38:17-76
+101-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:38:27-73
+102                <category android:name="android.intent.category.BROWSABLE" />
+102-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:39:17-78
+102-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:39:27-75
+103
+104                <data
+104-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:41:17-44:51
+105                    android:host="firebase.auth"
+105-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:42:21-49
+106                    android:path="/"
+106-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:43:21-37
+107                    android:scheme="recaptcha" />
+107-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\dayer\.gradle\caches\transforms-4\05c8a8078361b1118d87868c1f376a71\transformed\firebase-auth-23.0.0\AndroidManifest.xml:44:21-48
+108            </intent-filter>
+109        </activity>
+110
+111        <service
+111-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\dayer\.gradle\caches\transforms-4\d19a5704420e4bddffcfb830ddeab81f\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
+112            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+112-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\dayer\.gradle\caches\transforms-4\d19a5704420e4bddffcfb830ddeab81f\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
+113            android:enabled="true"
+113-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\dayer\.gradle\caches\transforms-4\d19a5704420e4bddffcfb830ddeab81f\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
+114            android:exported="false" >
+114-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\dayer\.gradle\caches\transforms-4\d19a5704420e4bddffcfb830ddeab81f\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
+115            <meta-data
+115-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\dayer\.gradle\caches\transforms-4\d19a5704420e4bddffcfb830ddeab81f\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
+116                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+116-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\dayer\.gradle\caches\transforms-4\d19a5704420e4bddffcfb830ddeab81f\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
+117                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+117-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\dayer\.gradle\caches\transforms-4\d19a5704420e4bddffcfb830ddeab81f\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
+118        </service>
+119
+120        <activity
+120-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\dayer\.gradle\caches\transforms-4\d19a5704420e4bddffcfb830ddeab81f\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
+121            android:name="androidx.credentials.playservices.HiddenActivity"
+121-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\dayer\.gradle\caches\transforms-4\d19a5704420e4bddffcfb830ddeab81f\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
+122            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+122-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\dayer\.gradle\caches\transforms-4\d19a5704420e4bddffcfb830ddeab81f\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
+123            android:enabled="true"
+123-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\dayer\.gradle\caches\transforms-4\d19a5704420e4bddffcfb830ddeab81f\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
+124            android:exported="false"
+124-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\dayer\.gradle\caches\transforms-4\d19a5704420e4bddffcfb830ddeab81f\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
+125            android:fitsSystemWindows="true"
+125-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\dayer\.gradle\caches\transforms-4\d19a5704420e4bddffcfb830ddeab81f\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
+126            android:theme="@style/Theme.Hidden" >
+126-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\dayer\.gradle\caches\transforms-4\d19a5704420e4bddffcfb830ddeab81f\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
+127        </activity>
+128        <activity
+128-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\dayer\.gradle\caches\transforms-4\2e59becd276a7661bc61237f6fdd5666\transformed\play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+129            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+129-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\dayer\.gradle\caches\transforms-4\2e59becd276a7661bc61237f6fdd5666\transformed\play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+130            android:excludeFromRecents="true"
+130-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\dayer\.gradle\caches\transforms-4\2e59becd276a7661bc61237f6fdd5666\transformed\play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+131            android:exported="false"
+131-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\dayer\.gradle\caches\transforms-4\2e59becd276a7661bc61237f6fdd5666\transformed\play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+132            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+132-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\dayer\.gradle\caches\transforms-4\2e59becd276a7661bc61237f6fdd5666\transformed\play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+133        <!--
+134            Service handling Google Sign-In user revocation. For apps that do not integrate with
+135            Google Sign-In, this service will never be started.
+136        -->
+137        <service
+137-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\dayer\.gradle\caches\transforms-4\2e59becd276a7661bc61237f6fdd5666\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+138            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+138-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\dayer\.gradle\caches\transforms-4\2e59becd276a7661bc61237f6fdd5666\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+139            android:exported="true"
+139-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\dayer\.gradle\caches\transforms-4\2e59becd276a7661bc61237f6fdd5666\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+140            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+140-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\dayer\.gradle\caches\transforms-4\2e59becd276a7661bc61237f6fdd5666\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+141            android:visibleToInstantApps="true" />
+141-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\dayer\.gradle\caches\transforms-4\2e59becd276a7661bc61237f6fdd5666\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+142
+143        <activity
+143-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\dayer\.gradle\caches\transforms-4\cdfedde4d0cb084034cefe5106a79a39\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+144            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+144-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\dayer\.gradle\caches\transforms-4\cdfedde4d0cb084034cefe5106a79a39\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+145            android:exported="false"
+145-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\dayer\.gradle\caches\transforms-4\cdfedde4d0cb084034cefe5106a79a39\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+146            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+146-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\dayer\.gradle\caches\transforms-4\cdfedde4d0cb084034cefe5106a79a39\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+147
+148        <provider
+148-->[com.google.firebase:firebase-common:21.0.0] C:\Users\dayer\.gradle\caches\transforms-4\fa10697f263963146316e2c4ad6fdbc1\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+149            android:name="com.google.firebase.provider.FirebaseInitProvider"
+149-->[com.google.firebase:firebase-common:21.0.0] C:\Users\dayer\.gradle\caches\transforms-4\fa10697f263963146316e2c4ad6fdbc1\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+150            android:authorities="com.impulsa.app.firebaseinitprovider"
+150-->[com.google.firebase:firebase-common:21.0.0] C:\Users\dayer\.gradle\caches\transforms-4\fa10697f263963146316e2c4ad6fdbc1\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+151            android:directBootAware="true"
+151-->[com.google.firebase:firebase-common:21.0.0] C:\Users\dayer\.gradle\caches\transforms-4\fa10697f263963146316e2c4ad6fdbc1\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+152            android:exported="false"
+152-->[com.google.firebase:firebase-common:21.0.0] C:\Users\dayer\.gradle\caches\transforms-4\fa10697f263963146316e2c4ad6fdbc1\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+153            android:initOrder="100" />
+153-->[com.google.firebase:firebase-common:21.0.0] C:\Users\dayer\.gradle\caches\transforms-4\fa10697f263963146316e2c4ad6fdbc1\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+154
+155        <service
+155-->[androidx.room:room-runtime:2.6.1] C:\Users\dayer\.gradle\caches\transforms-4\b06b0ec427d8709e45f2edb4fd6969de\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+156            android:name="androidx.room.MultiInstanceInvalidationService"
+156-->[androidx.room:room-runtime:2.6.1] C:\Users\dayer\.gradle\caches\transforms-4\b06b0ec427d8709e45f2edb4fd6969de\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+157            android:directBootAware="true"
+157-->[androidx.room:room-runtime:2.6.1] C:\Users\dayer\.gradle\caches\transforms-4\b06b0ec427d8709e45f2edb4fd6969de\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+158            android:exported="false" />
+158-->[androidx.room:room-runtime:2.6.1] C:\Users\dayer\.gradle\caches\transforms-4\b06b0ec427d8709e45f2edb4fd6969de\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+159
+160        <activity
+160-->[androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\dayer\.gradle\caches\transforms-4\5dc59c40e1f66f854fe1f1c679e17e33\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+161            android:name="androidx.compose.ui.tooling.PreviewActivity"
+161-->[androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\dayer\.gradle\caches\transforms-4\5dc59c40e1f66f854fe1f1c679e17e33\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+162            android:exported="true" />
+162-->[androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\dayer\.gradle\caches\transforms-4\5dc59c40e1f66f854fe1f1c679e17e33\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+163
+164        <provider
+164-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dayer\.gradle\caches\transforms-4\a5b1ddb4dd34aceeb2b802e969e6092c\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+165            android:name="androidx.startup.InitializationProvider"
+165-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dayer\.gradle\caches\transforms-4\a5b1ddb4dd34aceeb2b802e969e6092c\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+166            android:authorities="com.impulsa.app.androidx-startup"
+166-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dayer\.gradle\caches\transforms-4\a5b1ddb4dd34aceeb2b802e969e6092c\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+167            android:exported="false" >
+167-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dayer\.gradle\caches\transforms-4\a5b1ddb4dd34aceeb2b802e969e6092c\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+168            <meta-data
+168-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dayer\.gradle\caches\transforms-4\a5b1ddb4dd34aceeb2b802e969e6092c\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+169                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+169-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dayer\.gradle\caches\transforms-4\a5b1ddb4dd34aceeb2b802e969e6092c\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+170                android:value="androidx.startup" />
+170-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dayer\.gradle\caches\transforms-4\a5b1ddb4dd34aceeb2b802e969e6092c\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+171            <meta-data
+171-->[androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\dayer\.gradle\caches\transforms-4\ae1eec62f91eb049afa68a33cd7a1256\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:29:13-31:52
+172                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+172-->[androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\dayer\.gradle\caches\transforms-4\ae1eec62f91eb049afa68a33cd7a1256\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:30:17-78
+173                android:value="androidx.startup" />
+173-->[androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\dayer\.gradle\caches\transforms-4\ae1eec62f91eb049afa68a33cd7a1256\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:31:17-49
+174            <meta-data
+174-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dayer\.gradle\caches\transforms-4\35be0532e9c9ad707a1548ee3a3cd148\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+175                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+175-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dayer\.gradle\caches\transforms-4\35be0532e9c9ad707a1548ee3a3cd148\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+176                android:value="androidx.startup" />
+176-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dayer\.gradle\caches\transforms-4\35be0532e9c9ad707a1548ee3a3cd148\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+177        </provider>
+178
+179        <meta-data
+179-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\dayer\.gradle\caches\transforms-4\bef41bd716cfd8da143f9ab04fa4424d\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+180            android:name="com.google.android.gms.version"
+180-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\dayer\.gradle\caches\transforms-4\bef41bd716cfd8da143f9ab04fa4424d\transformed\play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+181            android:value="@integer/google_play_services_version" />
+181-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\dayer\.gradle\caches\transforms-4\bef41bd716cfd8da143f9ab04fa4424d\transformed\play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+182
+183        <receiver
+183-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dayer\.gradle\caches\transforms-4\35be0532e9c9ad707a1548ee3a3cd148\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+184            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+184-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dayer\.gradle\caches\transforms-4\35be0532e9c9ad707a1548ee3a3cd148\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+185            android:directBootAware="false"
+185-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dayer\.gradle\caches\transforms-4\35be0532e9c9ad707a1548ee3a3cd148\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+186            android:enabled="true"
+186-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dayer\.gradle\caches\transforms-4\35be0532e9c9ad707a1548ee3a3cd148\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+187            android:exported="true"
+187-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dayer\.gradle\caches\transforms-4\35be0532e9c9ad707a1548ee3a3cd148\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+188            android:permission="android.permission.DUMP" >
+188-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dayer\.gradle\caches\transforms-4\35be0532e9c9ad707a1548ee3a3cd148\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+189            <intent-filter>
+189-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dayer\.gradle\caches\transforms-4\35be0532e9c9ad707a1548ee3a3cd148\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+190                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+190-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dayer\.gradle\caches\transforms-4\35be0532e9c9ad707a1548ee3a3cd148\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+190-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dayer\.gradle\caches\transforms-4\35be0532e9c9ad707a1548ee3a3cd148\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+191            </intent-filter>
+192            <intent-filter>
+192-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dayer\.gradle\caches\transforms-4\35be0532e9c9ad707a1548ee3a3cd148\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+193                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+193-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dayer\.gradle\caches\transforms-4\35be0532e9c9ad707a1548ee3a3cd148\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+193-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dayer\.gradle\caches\transforms-4\35be0532e9c9ad707a1548ee3a3cd148\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+194            </intent-filter>
+195            <intent-filter>
+195-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dayer\.gradle\caches\transforms-4\35be0532e9c9ad707a1548ee3a3cd148\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+196                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+196-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dayer\.gradle\caches\transforms-4\35be0532e9c9ad707a1548ee3a3cd148\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+196-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dayer\.gradle\caches\transforms-4\35be0532e9c9ad707a1548ee3a3cd148\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+197            </intent-filter>
+198            <intent-filter>
+198-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dayer\.gradle\caches\transforms-4\35be0532e9c9ad707a1548ee3a3cd148\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+199                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+199-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dayer\.gradle\caches\transforms-4\35be0532e9c9ad707a1548ee3a3cd148\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+199-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dayer\.gradle\caches\transforms-4\35be0532e9c9ad707a1548ee3a3cd148\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+200            </intent-filter>
+201        </receiver>
+202    </application>
+203
+204</manifest>

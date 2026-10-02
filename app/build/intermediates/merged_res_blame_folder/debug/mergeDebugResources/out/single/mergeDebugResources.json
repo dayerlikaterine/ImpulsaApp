@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "com.impulsa.app-debug-64:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.impulsa.app-main-66:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "com.impulsa.app-debug-64:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.impulsa.app-main-66:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\drawable-mdpi_logo_impulsa.png.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\drawable-mdpi\\logo_impulsa.png"
+    },
+    {
+        "merged": "com.impulsa.app-debug-64:/mipmap-mdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.impulsa.app-main-66:/mipmap-mdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\drawable-xxhdpi_impulsa.png.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\drawable-xxhdpi\\impulsa.png"
+    },
+    {
+        "merged": "com.impulsa.app-debug-64:/mipmap-mdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.impulsa.app-main-66:/mipmap-mdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\drawable_logo_impulsa.png.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\drawable\\logo_impulsa.png"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.impulsa.app-debug-64:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.impulsa.app-main-66:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\drawable_impulsa.png.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\drawable\\impulsa.png"
+    },
+    {
+        "merged": "com.impulsa.app-debug-64:/mipmap-xxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.impulsa.app-main-66:/mipmap-xxhdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\drawable-xxxhdpi_logo_impulsa.png.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\drawable-xxxhdpi\\logo_impulsa.png"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\drawable-xhdpi_logo_impulsa.png.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\drawable-xhdpi\\logo_impulsa.png"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\drawable-mdpi_impulsa.png.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\drawable-mdpi\\impulsa.png"
+    },
+    {
+        "merged": "com.impulsa.app-debug-64:/mipmap-hdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.impulsa.app-main-66:/mipmap-hdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "com.impulsa.app-debug-64:/mipmap-xhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.impulsa.app-main-66:/mipmap-xhdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "com.impulsa.app-debug-64:/mipmap-xxxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.impulsa.app-main-66:/mipmap-xxxhdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.impulsa.app-debug-64:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.impulsa.app-main-66:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.impulsa.app-debug-64:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.impulsa.app-main-66:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\drawable-hdpi_logo_impulsa.png.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\drawable-hdpi\\logo_impulsa.png"
+    },
+    {
+        "merged": "com.impulsa.app-debug-64:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.impulsa.app-main-66:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.impulsa.app-debug-64:/mipmap-xxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.impulsa.app-main-66:/mipmap-xxhdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "com.impulsa.app-debug-64:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.impulsa.app-main-66:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.impulsa.app-debug-64:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.impulsa.app-main-66:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\drawable-xxxhdpi_impulsa.png.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\drawable-xxxhdpi\\impulsa.png"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.impulsa.app-debug-64:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.impulsa.app-main-66:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\drawable-xhdpi_impulsa.png.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\drawable-xhdpi\\impulsa.png"
+    },
+    {
+        "merged": "com.impulsa.app-debug-64:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.impulsa.app-main-66:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\drawable-hdpi_impulsa.png.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\drawable-hdpi\\impulsa.png"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\drawable-xxhdpi_logo_impulsa.png.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\drawable-xxhdpi\\logo_impulsa.png"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "com.impulsa.app-debug-64:/mipmap-hdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.impulsa.app-main-66:/mipmap-hdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "com.impulsa.app-debug-64:/mipmap-xxxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.impulsa.app-main-66:/mipmap-xxxhdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "com.impulsa.app-debug-64:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.impulsa.app-main-66:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.impulsa.app-debug-64:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.impulsa.app-main-66:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.impulsa.app-debug-64:/mipmap-xhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.impulsa.app-main-66:/mipmap-xhdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-debug-64:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\dayer\\.gradle\\daemon\\8.7\\com.impulsa.app-main-66:\\xml\\backup_rules.xml"
+    }
+]

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "118471587574",
+    "project_id": "impulsa-82b57",
+    "storage_bucket": "impulsa-82b57.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118471587574:android:f7649bab9c3404f87bded7",
+        "android_client_info": {
+          "package_name": "com.impulsa.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6uxtzoK_U5ftLJI8Ou0oqFdEy5bMUufk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

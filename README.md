@@ -1,73 +1,91 @@
-# Impulsa — Aplicación Móvil de Gestión de Ventas y Comisiones
+# Impulsa — Microproyecto Android (Taller 2)
 
-**Impulsa** es una aplicación nativa para Android diseñada para ayudar a asesores comerciales a registrar sus ventas diarias, realizar un seguimiento de sus comisiones en Pesos Colombianos ($ COP) y evaluar su progreso hacia la meta mensual.
+**Impulsa** es una aplicación móvil desarrollada para que un asesor de ventas pueda **registrar ventas, consultar su historial y revisar su avance hacia una meta mensual de comisión**.
 
-Desarrollada para la asignatura **Electiva: Desarrollo de Aplicaciones Móviles** de la **Universidad del Cauca**.
+Fue desarrollada con **Kotlin y Jetpack Compose**, siguiendo el prototipo de Figma y los requisitos del Taller de la asignatura **Desarrollo de Aplicaciones Móviles**.
 
----
-
-## 👥 Integrantes del Proyecto
-
-- **Daniel Esteban Arciniegas Barrera**
-- **Maria José Peña Anacona**
-- **Dayerli Katerine Tamayo Solarte**
-
-**Profesor:** Ph.D. Cristhian Figueroa  
-**Institución:** Universidad del Cauca — Departamento de Telemática  
+**Integrantes:**
+Maria José Peña Anacona, Daniel Esteban Arciniegas Barrera y Dayerli Katerine Tamayo Solarte.
 
 ---
 
-## 🚀 Características Principales
+## 1. Firebase
 
-- **Arquitectura Offline-First:** Las ventas se guardan primero en la base de datos local SQLite mediante **Room**, permitiendo usar la app sin conexión a Internet.
-- **Respaldo en la Nube:** Sincronización automática de ventas hacia la base de datos **Firebase Firestore**.
-- **Autenticación de Usuarios:** Control de sesión con **Firebase Auth**.
-- **Cálculo de Comisiones:** Cálculo automático del 8% de comisión sobre el valor acumulado en Pesos Colombianos.
-- **Progreso de Meta:** Visualización gráfica porcentual del avance hacia la meta mensual de $20.000.000 COP.
-- **Interfaz Moderna:** Diseñada con **Jetpack Compose** y el sistema de diseño **Material 3**.
+La aplicación utiliza **Firebase Firestore** como servicio en línea.
 
----
+Para ejecutar el proyecto se debe:
 
-## 📱 Pantallas de la Aplicación
-
-1. **Inicio de Sesión (`LoginScreen`):** Autenticación de usuario con correo y contraseña.
-2. **Tablero Principal (`DashboardScreen`):** Resumen de ventas, comisiones, avance de meta y accesos rápidos.
-3. **Registrar Venta (`RegistrarVentaScreen`):** Formulario con validación para cliente, concepto, valor monetario, forma de pago y notas.
-4. **Historial de Ventas (`HistorialVentasScreen`):** Lista de transacciones registradas localmente en el dispositivo.
-5. **Detalle de Venta (`DetalleVentaScreen`):** Desglose e insignia de sincronización en línea.
-6. **Desempeño (`DesempenoScreen`):** Estadísticas y gráfico de cumplimiento.
-7. **Perfil (`PerfilScreen`):** Información del asesor y opción para cerrar sesión.
-8. **Descripción y Créditos (`CreditosScreen`):** Información del equipo de desarrollo y resumen de la aplicación.
+1. Crear un proyecto en Firebase.
+2. Activar Firestore en modo de prueba.
+3. Registrar la aplicación con el identificador `com.impulsa.app`.
+4. Descargar `google-services.json`.
+5. Colocar el archivo dentro de la carpeta `app/`.
+6. Abrir el proyecto en Android Studio y sincronizar Gradle.
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## 2. Pantallas
 
-- **Lenguaje:** Kotlin
-- **UI:** Jetpack Compose (Material 3)
-- **Base de Datos Local:** Room (SQLite)
-- **Arquitectura:** MVVM (Model-View-ViewModel) con `StateFlow`
-- **Navegación:** Jetpack Navigation Compose
-- **Servicios en Nube:** Firebase Auth & Cloud Firestore
-- **Control de Versiones:** Git & GitHub
+La aplicación cuenta con 8 pantallas:
 
----
+| Pantalla                   | Función                                     |
+| -------------------------- | ------------------------------------------- |
+| **Login**                  | Inicio de sesión del asesor.                |
+| **Dashboard**              | Resumen de ventas, comisión y meta.         |
+| **Registrar Venta**        | Registro de nuevas ventas.                  |
+| **Historial**              | Consulta y búsqueda de ventas.              |
+| **Detalle de Venta**       | Información completa de una venta.          |
+| **Desempeño**              | Total vendido, comisión y progreso.         |
+| **Perfil**                 | Datos del asesor y cierre de sesión.        |
+| **Descripción y Créditos** | Información de la aplicación e integrantes. |
 
-## ⚙️ Configuración e Instalación
-
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/dayerlikaterine/ImpulsaApp.git
-   ```
-2. Abrir el proyecto en **Android Studio**.
-3. Sincronizar el proyecto con Gradle (**Sync Project with Gradle Files**).
-4. Compilar e instalar la aplicación en un dispositivo físico o emulador con Android 7.0 (API 24) o superior.
+La navegación entre las pantallas se realizó con **Navigation Component**.
 
 ---
 
-## 🌿 Estructura de Ramas en Git
+## 3. Room
 
-- `main` / `master`: Versión principal de producción.
-- `feature/ui-compose-theme`: Implementación del sistema de diseño, colores y componentes visuales en Compose.
-- `feature/room-database`: Configuración de base de datos local SQLite, entidades y DAOs.
-- `feature/firebase-integration`: Integración de Firebase Auth y servicios de sincronización en Firestore.
+Se utilizó **Room** para almacenar las ventas de forma local.
+
+Los principales componentes son:
+
+* `VentaEntity`: información de la venta.
+* `VentaDao`: inserción y consulta de ventas.
+* `AppDatabase`: configuración de la base de datos.
+* `VentaRepository`: comunicación entre Room y Firebase.
+
+---
+
+## 4. ViewModel
+
+Se utilizaron ViewModel para manejar la lógica de la aplicación.
+
+* **AuthViewModel:** controla el inicio y cierre de sesión.
+* **VentaViewModel:** obtiene las ventas y calcula el total vendido, la comisión y el progreso de la meta.
+
+---
+
+## 5. Firebase
+
+Al registrar una venta:
+
+**Registrar venta → Room → Firebase Firestore**
+
+La información se guarda localmente y luego se sincroniza con Firebase en la colección `ventas`.
+
+Cuando la operación es exitosa, el detalle de la venta muestra la etiqueta **"Sincronizada"**.
+
+---
+
+## 6. Diseño
+
+Se aplicaron principalmente tres criterios:
+
+* **Consistencia visual:** mismos colores y componentes en las pantallas.
+* **Jerarquía visual:** los datos importantes tienen mayor tamaño y relevancia.
+* **Retroalimentación:** mensajes, validaciones, barra de progreso y confirmaciones para las acciones del usuario.
+
+---
+
+
+La rama `main` debe mantenerse con una versión funcional del proyecto.

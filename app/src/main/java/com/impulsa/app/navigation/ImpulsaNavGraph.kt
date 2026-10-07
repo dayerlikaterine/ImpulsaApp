@@ -1,3 +1,4 @@
+//parte de daniel
 package com.impulsa.app.navigation
 
 import androidx.compose.foundation.layout.padding
@@ -31,6 +32,7 @@ import com.impulsa.app.ui.screens.RegistrarVentaScreen
 import com.impulsa.app.viewmodel.AuthViewModel
 import com.impulsa.app.viewmodel.VentaViewModel
 
+
 private val ITEMS_BARRA_INFERIOR = listOf(
     ItemBarraInferior(ImpulsaDestinations.DASHBOARD, "Inicio", Icons.Filled.Home),
     ItemBarraInferior(ImpulsaDestinations.HISTORIAL, "Ventas", Icons.Filled.List),
@@ -57,6 +59,7 @@ fun ImpulsaApp(authViewModel: AuthViewModel, ventaViewModel: VentaViewModel) {
             modifier = Modifier.padding(paddingInterno)
         ) {
             composable(ImpulsaDestinations.LOGIN) {
+            
                 LoginScreen(
                     authViewModel = authViewModel,
                     alIniciarSesion = {
@@ -78,12 +81,14 @@ fun ImpulsaApp(authViewModel: AuthViewModel, ventaViewModel: VentaViewModel) {
                 }
             }
 
+            
             composable(ImpulsaDestinations.REGISTRAR_VENTA) {
                 val asesor by authViewModel.asesorActual.collectAsState()
                 RegistrarVentaScreen(
                     ventaViewModel = ventaViewModel,
                     asesor = asesor,
                     alVolver = { navController.popBackStack() },
+            
                     alGuardar = { navController.popBackStack() }
                 )
             }
@@ -97,6 +102,7 @@ fun ImpulsaApp(authViewModel: AuthViewModel, ventaViewModel: VentaViewModel) {
                 )
             }
 
+            
             composable(
                 route = ImpulsaDestinations.DETALLE_VENTA,
                 arguments = listOf(navArgument("ventaId") { type = NavType.LongType })
@@ -109,15 +115,17 @@ fun ImpulsaApp(authViewModel: AuthViewModel, ventaViewModel: VentaViewModel) {
                 )
             }
 
+            
             composable(ImpulsaDestinations.DESEMPENO) {
                 val asesor by authViewModel.asesorActual.collectAsState()
                 asesor?.let { DesempenoScreen(asesor = it, ventaViewModel = ventaViewModel) }
             }
 
-            composable(ImpulsaDestinations.PERFIL) {
+            
+             composable(ImpulsaDestinations.PERFIL) {
                 val asesor by authViewModel.asesorActual.collectAsState()
-                asesor?.let {
-                    PerfilScreen(
+                  asesor?.let {
+                     PerfilScreen(
                         asesor = it,
                         alVerCreditos = { navController.navigate(ImpulsaDestinations.CREDITOS) },
                         alCerrarSesion = {
@@ -130,9 +138,10 @@ fun ImpulsaApp(authViewModel: AuthViewModel, ventaViewModel: VentaViewModel) {
                 }
             }
 
-            composable(ImpulsaDestinations.CREDITOS) {
-                CreditosScreen(alVolver = { navController.popBackStack() })
+             composable(ImpulsaDestinations.CREDITOS) {
+                 CreditosScreen(alVolver = { navController.popBackStack() })
             }
         }
+
     }
 }

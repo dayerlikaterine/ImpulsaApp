@@ -1,6 +1,8 @@
+// Daniel
 package com.impulsa.app.navigation
 
 /** Rutas de Navigation Component. Todas las pantallas de la app quedan listadas aquí. */
+
 object ImpulsaDestinations {
     const val LOGIN = "login"
     const val DASHBOARD = "dashboard"
